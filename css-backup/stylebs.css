@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Gummi;
+    src: url(../fonts/KHGummi.otf);
+}
+@font-face{
+    font-family: DMSans;
+    src: url(../fonts/DMSans-Regular.ttf);
+}
+.preguntas{
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'DMSans';
+}
+.contacto{
+ padding-top: 50px;
+}
+.logoblanco{
+    height: 60px;
+    width: 150px;
+}

@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-
 }
 
 @font-face {
@@ -12,7 +11,6 @@
     font-family: DMSans;
     src: url(../fonts/DMSans-Regular.ttf);
 }
-
     
 h1 {
     color: black;
@@ -155,66 +153,12 @@ label.menu{
     width: 260px;
     padding: 1px 1px 1px 1px;
 }
-.p-container{
-    width: 90%;
-    height: 100%;
-    padding-top: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-
-}
-.p-container .card{
-    width: 470px;
-    overflow: hidden;
-    text-align: center;
-    margin-bottom: 15px;
-    border: 3px solid black;
-    border-radius: 25px;
-}
-.p-container .card .p-img{
-    width: 430px;
-    margin: 20px auto;
-}
-.p-container .card .p-img img{
-    width: 100%;
-    transition: 0.3s;
-}
-.p-container .card .p-img img:hover{
-    transform: scale(1.1);
-}
-.p-container .card .p-info h4{
-    font-size: 18px;
-    font-family: "DMSans";
-    padding: 0 25px;
-    margin-bottom: 10px;
-}
-.p-container .card .btn{
-    width: 100%;
-}
-.p-container .card .btn button{
-    width: 50%;
-    padding: 10px;
-    background: black;
-    border: 1px solid gray;
-    outline: none;
-    color: white;
-    cursor:pointer;
-    font-size: 15px;
-    border-radius: 15px;
+body{
+    background-color: black;
 }
 .hr{
     color: black;
 }
-.productos{
-    width: 400px;
-    height: 400px;
-}
-.titulo{
-    text-align: center;
-}
-
 .footer{
     margin-top: 150px;
     width: 70%;
