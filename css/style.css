@@ -56,6 +56,9 @@ nav a {
     justify-content: space-between;
     text-align: center;
 }
+body{
+    background-color: black;
+}
 .logo {
     height: 2000px;
 
@@ -170,7 +173,7 @@ label.menu{
     overflow: hidden;
     text-align: center;
     margin-bottom: 15px;
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 25px;
 }
 .p-container .card .p-img{
@@ -187,6 +190,7 @@ label.menu{
 .p-container .card .p-info h4{
     font-size: 18px;
     font-family: "DMSans";
+    color: white;
     padding: 0 25px;
     margin-bottom: 10px;
 }
@@ -208,8 +212,8 @@ label.menu{
     color: black;
 }
 .productos{
-    width: 400px;
-    height: 400px;
+    width: 650px;
+    height: 620px;
 }
 .titulo{
     text-align: center;
