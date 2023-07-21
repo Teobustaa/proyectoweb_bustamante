@@ -56,7 +56,6 @@ nav a {
 }
 .logo {
     height: 2000px;
-
 }
 
 .navbar{
@@ -217,26 +216,6 @@ form button{
     cursor: pointer;
 }
 
-.nav-boton{
-    background-color: green;
-    color: blue;
-    padding: 10px 0;
-}
 
 /* media queries */
 
-@media screen and (max-width: 600px) {
-   .navbar ul{
-    flex-direction: column;
-    position: absolute;
-    top: 50px;
-    background-color: black;
-   } 
-   label.menu{
-    display: block;
-    margin-left: 10px;
-   }
-   #checkbox-menu:checked ~ ul{
-    display: block;
-   }
-}

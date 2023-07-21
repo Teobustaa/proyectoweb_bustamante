@@ -10,6 +10,9 @@
     font-family: DMSans;
     src: url(../fonts/DMSans-Regular.ttf);
 }
+h2{
+    font-size: 25px;
+}
 .preguntas{
     margin-top: 50px;
     font-size: 25px;
