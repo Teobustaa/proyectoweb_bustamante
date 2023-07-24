@@ -2,12 +2,10 @@
 $widthmax: 100%;
 
 @import "partials/reset";
-
 @mixin negro-sans {
     color: black;
     font-family: "DMSans";
 }
-
 @font-face {
     font-family: Gummi;
     src: url(../fonts/KHGummi.otf);
@@ -159,7 +157,7 @@ nav{
     width: 350px;
     height: 550px;
     margin: 30px;
-    padding: 20px 20px 20px 20px;
+    padding: 50px 50px 50px 50px;
     overflow: hidden;
     border-radius: 40px;
     outline: solid white;
@@ -172,13 +170,25 @@ nav{
         transition: ease-in 0.25s;
     }
 }
-.img-main:hover{
-    transform: scale(1.1);
-    opacity: 70%;
-    transition: ease-in 0.25s;
-}
 .img{
     transition: transform 0.25s;
+}
+.main-card{
+    height: 550px;
+    width: 350px;
+    margin: 100px;
+    padding: 30px 30px 30px 30px;
+    overflow: hidden;
+    border-radius: 40px;
+    outline: solid white;
+    outline-width: 3px;
+    outline-offset: -15px;
+
+    &:hover{
+        transform: scale(1.1);
+        opacity: 70%;
+        transition: ease-in 0.25s;
+    }
 }
 .form{
     color: white;
@@ -210,6 +220,15 @@ nav{
 }
 .titulo{
     text-align: center;
+}
+.img-index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .fondo{
+        height: 1200px;
+        width: 1600px;
+    }
 }
 .footer{
     margin-top: 150px;
@@ -265,6 +284,7 @@ form button{
         font-size: 22px;
         margin: 10px;
         cursor: pointer;
+        color: white;
     }
 }
 
